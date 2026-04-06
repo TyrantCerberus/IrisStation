@@ -5,7 +5,7 @@
 	quirk_flags = QUIRK_HIDE_FROM_SCAN | QUIRK_EXCLUDES_GHOSTROLES
 	icon = FA_ICON_MONEY_CHECK_DOLLAR
 	medical_record_text = "Light subtly bends around the patient, suggesting a high Weiss-Wiesemann/Rougon-Macquart coefficient."
-	var/payday_bonus = 600 //credits
+	var/payday_bonus = PAYCHECK_COMMAND
 
 /datum/quirk/affluent/add_unique(client/client_source)
 	var/mob/living/carbon/human/human_holder = quirk_holder
